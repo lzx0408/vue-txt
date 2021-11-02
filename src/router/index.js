@@ -19,7 +19,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
     children:[
      {
-      path: '',
+      path: 'xtsy',
       name: 'xtsy',
       component: () => import('../views/xtsy/index.vue'),
      },
@@ -37,7 +37,12 @@ const routes = [
       path: 'cart',
       name: 'cart',
       component: () => import('../views/kcgl/cart.vue'),
-     }
+     },
+     {
+      path: '',
+      name: 'MobileTerminal',
+      component: () => import('../views/MobileTerminal/index.vue'),
+     },
     ]
 
   }
