@@ -8,7 +8,7 @@
                 </div>
                 <ul class="list">
                     <li>首页</li>
-                    <li style="width: .82rem;height: .4rem;">新手入门</li>
+                    <li style="width: 82px;height: 40px;">新手入门</li>
                     <li>API</li>
                     <li>关于</li>
                     <li>注册</li>
